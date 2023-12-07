@@ -24,10 +24,15 @@ class Student{
         this.age=0;
         this.roll=-1;
     }
-    public Student(String n, int a, int r){
+    public Student(String n, int a, int r){ // PARAMETERIZED CONSTRUCTOR
         this.name=n;
         this.age=a;
         this.roll=r;
+    }
+    public Student(Student copy_student){ //COPY CONSTRUCTOR
+        this.name=copy_student.name;
+        this.age=copy_student.age;
+        this.roll=copy_student.roll;
     }
     public void DisplayInfo(){
         System.out.println("Student's name:"+this.name);
@@ -47,8 +52,13 @@ public class Main{
         System.out.print("enter student's roll_number:");
         int roll=s.nextInt();
         Student s2 = new Student(name,age,roll);
+        System.out.println("STUDENT 1- DETAILS");
         s1.DisplayInfo();
+        System.out.println("STUDENT 2- DETAILS");
         s2.DisplayInfo();
+        Student s3= new Student(s2);
+        System.out.println("STUDENT 3- DETAILS");
+        s3.DisplayInfo();
     }
 }
 /*
@@ -56,9 +66,15 @@ SAMPLE INPUT AND OUTPUT:
 enter student's name:harshini
 enter student's age:18
 enter student's roll_number:123
+STUDENT 1- DETAILS
 Student's name:unknown
 Student's age:0
 Student's rollnumber:-1
+STUDENT 2- DETAILS
+Student's name:harshini
+Student's age:18
+Student's rollnumber:123
+STUDENT 3- DETAILS
 Student's name:harshini
 Student's age:18
 Student's rollnumber:123
