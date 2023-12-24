@@ -1,2 +1,2 @@
 # OOPP-USING-JAVA
-[Generic Class](www.google.com)
+[Generic Class](OOPP-USING-JAVA/UNIT-5/GenericClass-Example.java)
