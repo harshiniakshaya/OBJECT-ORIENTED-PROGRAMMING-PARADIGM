@@ -21,6 +21,9 @@
   - Method Overriding
       - [Animal Example](Polymorphism/Animal.java)
       - [Employee Example](Polymorphism/Employee.java)
+- STATIC
+  - [Static Variables](Static/StaticVariable.java)
+  - [Static Methods](Static/StaticMethod.java)
 ## UNIT 5 - GENERIC PROGRAMMING, MULTITHREADING AND EVENT DRIVEN PROGRAMMING
 - GENERIC PROGRAMMING
   - [Generic Class Example](UNIT-5/GenericClass-Example.java)
