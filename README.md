@@ -6,6 +6,12 @@
   - [Student Example](Access-Specifiers/Student.java)
 - CONSTRUCTORS - Default, Parameterized, Copy
   - [Example](Constructors.java)
+- INHERITANCE
+  - [Single Level](Inheritance/Single-Level.java)
+  - [Multi Level](Inheritance/Multi-Level.java)
+  - [Multiple Inheritance - through interfaces](Inheritance/Multiple-Inheritance.java)
+  - [Employee Example](Inheritance/Employee.java)
+  - [Vehicle Example](Inheritance/Vehicle.java)
 - POLYMORPHISM
   - Method Overloading
     - [Example](Polymorphism/Overloading.java)
