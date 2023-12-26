@@ -9,7 +9,7 @@
 - ABSTRACTION
   - [Shape2D Example](Abstraction/Shape2D.java)
   - [Instrument Example](Abstraction/Instrument.java)
-- INHERITANCE
+- INHERITANCE - (is-a-relationship)
   - [Single Level](Inheritance/Single-Level.java)
   - [Multi Level](Inheritance/Multi-Level.java)
   - [Multiple Inheritance - through interfaces](Inheritance/Multiple-Inheritance.java)
