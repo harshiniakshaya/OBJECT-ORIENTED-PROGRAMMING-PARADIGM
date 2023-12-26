@@ -5,7 +5,13 @@
   - [Rectangle Example](Access-Specifiers/Rectangle.java)
   - [Student Example](Access-Specifiers/Student.java)
 - CONSTRUCTORS - Default, Parameterized, Copy
-  - [Example](Constructors.java) 
+  - [Example](Constructors.java)
+- POLYMORPHISM
+  - Method Overloading
+    
+  - Method Overriding
+      - [Animal Example](Polymorphism/Animal.java)
+      - [Employee Example](Polymorphism/Employee.java)
 ## UNIT 5 - GENERIC PROGRAMMING, MULTITHREADING AND EVENT DRIVEN PROGRAMMING
 - GENERIC PROGRAMMING
   - [Generic Class Example](UNIT-5/GenericClass-Example.java)
