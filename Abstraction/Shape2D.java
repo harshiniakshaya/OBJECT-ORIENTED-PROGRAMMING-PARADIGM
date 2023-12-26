@@ -1,3 +1,8 @@
+/*
+Write a Java program to create an abstract class Shape2D with abstract
+methods draw(). Create subclasses Rectangle and Circle that
+extend the Shape2D class and implement the respective methods to draw shape.
+*/
 import java.util.*;
 abstract class Shape{
     abstract void draw();
